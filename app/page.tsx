@@ -1,13 +1,13 @@
-import { Home, Camera, Zap, Shield, CheckCircle, ArrowRight } from 'lucide-react'
+import { Home as HomeIcon, Camera, Zap, Shield, CheckCircle, ArrowRight } from 'lucide-react'
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header */}
       <header className="border-b border-gray-100">
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <Home className="w-6 h-6 text-blue-500" />
+            <HomeIcon className="w-6 h-6 text-blue-500" />
             <span className="text-xl font-semibold">Property Intel</span>
           </div>
           <nav className="flex items-center gap-8">
@@ -244,7 +244,7 @@ export default function Home() {
       <footer className="border-t border-gray-200 py-8">
         <div className="container flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Home className="w-5 h-5 text-blue-500" />
+            <HomeIcon className="w-5 h-5 text-blue-500" />
             <span className="font-medium">Property Intel</span>
           </div>
           <div className="text-gray-500 text-sm">
